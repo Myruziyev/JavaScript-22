@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #212529;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 146px;
+  margin-bottom: 48px;
+  flex-direction: column;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 265px;
+  height: 417px;
+  top: 30px;
+  left: 4.59px;
+  border-radius: 10px;
+  background-color: #ffff00;
+  row-gap: 10px;
+  padding: 10px 0px;
+}
+.pokemon_p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding: 5px 10px;
+  background-color: #c4e4ff;
+  border-radius: 20px;
+  color: #212529;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "main main main main main";
+  gap: 10px;
+  margin-top: 20px;
+}
+form {
+  margin-top: 47px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: start;
+  width: 100%;
+}
+input {
+  padding: 10px 27px 10px 27px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 400;
+  font-size: 15.88px;
+  line-height: 100%;
+}
+select {
+  top: 1px;
+  left: 440px;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 180px 10px 12px;
+  color: #000000;
+}
+.h2 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #212529;
+}
+.num {
+  position: relative;
+  padding: 5px 9px;
+  border-top-right-radius: 10px;
+  background-color: #ff0000;
+  color: #ffffff;
+  left: 108px;
+  bottom: 10px;
+  font-weight: 800;
+  font-size: 15.5px;
+  line-height: 24px;
+}
+.Small_p {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  color: #212529;
+}
+.weakness {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #80007c;
+}
+.time {
+  background-color: #00ffff;
+  color: #000000;
+  font-weight: 800;
+  font-size: 15.75px;
+  line-height: 24px;
+  padding: 9px 5px;
+  border-bottom-left-radius: 10px;
+  right: 104px;
+  top: 8px;
+  position: relative;
+}
+button {
+  background-color: #198754;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 11px 84px;
+  border-radius: 6px;
+  border: none;
+}
